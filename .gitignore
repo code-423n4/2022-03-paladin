@@ -102,3 +102,23 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Hardhat
+build/
+types/
+cache/
+artifacts/
+typechain/
+flatten/
+coverage*
+
+# Foundry
+out/
+
+# Other
+.vscode/
+**/.DS_Store
+.DS_Store
+
+bin/
+
