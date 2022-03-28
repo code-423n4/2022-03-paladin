@@ -132,6 +132,8 @@ Where `bonusRatioDecrease` is the difference between the last multiplier and the
 The formula `newBonusRatio + ((userRatioDecrease + bonusRatioDecrease) / 2);` can also be seen as `(newBonusRatio + lastBonusRatio + userRatioDecrease) / 2`, where the `userRatioDecrease` is added since the new multiplier that was calculated is to be used for the next time, and not be counted for the rewards to be accrued during this update.
 
 
+More docs at: https://doc.paladin.vote/governance/holy-pal-hpal/smart-contract
+
 
 | Glossary| |
 |-------------------------------|------------------------------------------------------|
